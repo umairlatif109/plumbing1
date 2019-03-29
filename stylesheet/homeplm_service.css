@@ -1,0 +1,63 @@
+
+	/* service properties */
+
+.address{
+    font-size: 17px;
+    font-family: inherit;
+    word-spacing: 2px;
+	line-height: 1.8;
+	}
+.form-label{
+	    color: rgb(101, 101, 101);
+    font-size: 17px;
+    word-spacing: 3px;
+	    font-weight: 100;
+}
+.form-button{
+    margin-top: 15px;
+    padding: 11px 27px;
+    background-color: #080808;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.location-mange {
+    color: rgb(126, 126, 126);
+    font-weight: 600;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+	line-height: 4;
+	margin-left: 8px;
+}
+.location-icon{
+	    font-size: 20px;
+    color: black;
+}
+	
+
+		/* Mdia Query */
+		
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+    }
+  }  
+   @media (max-width: 480px) {
+	   .icon-responsive{    margin-left: 27px;}
+       .responsive-item{    margin-left: 41px;}
+       #myCarousel{display:none;}
+	   .search-btn{    margin-left: -38px;     width: 313px;}
+	   .logo-ctrl {    height: 57px; position:absolute; width:240px; margin-left:3px;}
+	   .btn-responsive {margin-right: 18px !ipmortant;}
+	   .form-responsive{    margin-top:0px;}
+	   .second-row{	margin-top:101px;}
+	   .nmb-btn{    margin-top: 24px ;  margin-left: 46px;}
+	   .topnav{    margin-top: 55px  !important;    margin-left: 54px  !important;}
+	   .affix {   top: -73px;  width: 91%;    height: 45%;    position: fixed;}
+	   .work-h1{	padding:154px 10px 117px 45px; }
+	   .work-h1down{ margin-left:107px;}
+	   .services-button {padding: 10px 20px 10px 20px;  font-size: 23px;}
+	   .bodyyy{    margin-top: 75px !important;}
+	   iframe{ height: 100%;}
+   }
